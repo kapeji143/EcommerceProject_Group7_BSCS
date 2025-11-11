@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brands | Erwin's Depot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Header Component -->
+    <div id="header-placeholder"></div>
+
+    <main class="container my-5">
+        <!-- Page Title -->
+        <section class="text-center mb-5">
+            <h1 class="display-4 fw-bold mb-3">Our Brands</h1>
+            <p class="lead text-muted">Discover premium furniture from our curated collection of top brands</p>
+        </section>
+
+        <!-- Brand Selection Grid -->
+        <section id="brandSelection" class="mb-5">
+            <div class="row g-4" id="brandGrid">
+                <!-- Arhaus -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="brand-card" data-brand="Arhaus">
+                        <div class="brand-image-container">
+                            <img src="../images/brands/arhaus-interior-design.jpg" alt="Arhaus" class="brand-image">
+                            <div class="brand-overlay"></div>
+                            <div class="brand-content">
+                                <div class="brand-logo-container">
+                                    <img src="../images/brands/arhaus-logo-white.png" alt="Arhaus Logo"
+                                        class="brand-logo"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                    <h3 class="brand-name-fallback" style="display:none;">Arhaus</h3>
+                                </div>
+                                <p class="brand-description">Artisan-crafted furniture with timeless elegance</p>
+                                <div class="brand-cta">
+                                    <span>Explore Collection</span>
+                                    <i class="bi bi-arrow-right ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dovetail -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="brand-card" data-brand="Dovetail">
+                        <div class="brand-image-container">
+                            <img src="../images/brands/dovetail-interior-design.jpg" alt="Dovetail" class="brand-image">
+                            <div class="brand-overlay"></div>
+                            <div class="brand-content">
+                                <div class="brand-logo-container">
+                                    <img src="../images/brands/dovetail-logo-white.png" alt="Dovetail Logo"
+                                        class="brand-logo"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                    <h3 class="brand-name-fallback" style="display:none;">Dovetail</h3>
+                                </div>
+                                <p class="brand-description">Modern style meets quality craftsmanship</p>
+                                <div class="brand-cta">
+                                    <span>Explore Collection</span>
+                                    <i class="bi bi-arrow-right ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jamie Young Co. -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="brand-card" data-brand="Jamie Young Co.">
+                        <div class="brand-image-container">
+                            <img src="../images/brands/jamie-young-co-interior-design.jpg" alt="Jamie Young Co."
+                                class="brand-image">
+                            <div class="brand-overlay"></div>
+                            <div class="brand-content">
+                                <div class="brand-logo-container">
+                                    <img src="../images/brands/jamie-young-co-logo-white.png" alt="Jamie Young Co. Logo"
+                                        class="brand-logo"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                    <h3 class="brand-name-fallback" style="display:none;">Jamie Young Co.</h3>
+                                </div>
+                                <p class="brand-description">Classy intricate decorations and lighting</p>
+                                <div class="brand-cta">
+                                    <span>Explore Collection</span>
+                                    <i class="bi bi-arrow-right ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Joybird -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="brand-card" data-brand="Joybird">
+                        <div class="brand-image-container">
+                            <img src="../images/brands/joybird-interior-design.jpg" alt="Joybird" class="brand-image">
+                            <div class="brand-overlay"></div>
+                            <div class="brand-content">
+                                <div class="brand-logo-container">
+                                    <img src="../images/brands/joybird-logo-white.png" alt="Joybird Logo"
+                                        class="brand-logo"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                                    <h3 class="brand-name-fallback" style="display:none;">Joybird</h3>
+                                </div>
+                                <p class="brand-description">Mid-century modern designs for contemporary living</p>
+                                <div class="brand-cta">
+                                    <span>Explore Collection</span>
+                                    <i class="bi bi-arrow-right ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Results Section (Hidden by default) -->
+        <section id="productResults" class="d-none">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="section-title mb-0" id="brandTitle"></h2>
+                <button id="backToBrands" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-left me-2"></i>Back to Brands
+                </button>
+            </div>
+            <div class="row g-4" id="brandProductsGrid"></div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/brands.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

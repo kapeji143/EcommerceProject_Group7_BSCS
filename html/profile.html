@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile | Erwin's Depot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <style>
+        :root {
+            --primary-orange: #EA580C;
+            --primary-orange-dark: #C2410C;
+            --primary-orange-light: #FB923C;
+            --cream-bg: #FEF3E2;
+            --light-bg: #F9FAFB;
+            --dark-gray: #1F2937;
+            --medium-gray: #6B7280;
+            --light-gray: #E5E7EB;
+        }
+
+        .profile-container {
+            background-color: var(--light-bg);
+            min-height: calc(100vh - 200px);
+            padding: 2rem 0;
+        }
+
+        .profile-sidebar {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 100px;
+        }
+
+        .profile-avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-orange), var(--primary-orange-dark));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin: 0 auto 1rem;
+        }
+
+        .profile-name {
+            text-align: center;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--dark-gray);
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-email {
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--medium-gray);
+            margin-bottom: 2rem;
+        }
+
+        .sidebar-nav {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar-nav li {
+            margin-bottom: 0.5rem;
+        }
+
+        .sidebar-nav a {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            color: var(--dark-gray);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .sidebar-nav a:hover,
+        .sidebar-nav a.active {
+            background-color: var(--cream-bg);
+            color: var(--primary-orange);
+        }
+
+        .sidebar-nav i {
+            font-size: 1.2rem;
+        }
+
+        .profile-content {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .content-section {
+            display: none;
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        .section-header {
+            border-bottom: 2px solid var(--light-gray);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-header h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--dark-gray);
+            margin: 0;
+        }
+
+        .form-label {
+            font-weight: 600;
+            color: var(--dark-gray);
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary-orange);
+            box-shadow: 0 0 0 0.2rem rgba(234, 88, 12, 0.25);
+        }
+
+        .btn-primary-custom {
+            background-color: var(--primary-orange);
+            border: none;
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary-custom:hover {
+            background-color: var(--primary-orange-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+        }
+
+        .address-card {
+            border: 2px solid var(--light-gray);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .address-card:hover {
+            border-color: var(--primary-orange);
+        }
+
+        .address-card.default {
+            border-color: var(--primary-orange);
+            background-color: var(--cream-bg);
+        }
+
+        .default-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: var(--primary-orange);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .order-card {
+            border: 1px solid var(--light-gray);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .order-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .order-status {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        .status-completed {
+            background-color: #D1FAE5;
+            color: #065F46;
+        }
+
+        .status-processing {
+            background-color: #FEF3C7;
+            color: #92400E;
+        }
+
+        .status-shipped {
+            background-color: #DBEAFE;
+            color: #1E40AF;
+        }
+
+        .logout-btn {
+            width: 100%;
+            margin-top: 1rem;
+            color: #DC2626;
+            border: 2px solid #DC2626;
+            background: white;
+            padding: 0.75rem;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .logout-btn:hover {
+            background-color: #DC2626;
+            color: white;
+        }
+
+        @media (max-width: 991px) {
+            .profile-sidebar {
+                position: relative;
+                top: 0;
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <main class="profile-container">
+        <div class="container">
+            <div class="row">
+                <!-- Sidebar -->
+                <div class="col-lg-3">
+                    <div class="profile-sidebar">
+                        <div class="profile-avatar" id="profileAvatar">E</div>
+                        <div class="profile-name" id="profileName">Loading...</div>
+                        <div class="profile-email" id="profileEmail">Loading...</div>
+
+                        <ul class="sidebar-nav">
+                            <li>
+                                <a href="#" data-section="account" class="nav-link active">
+                                    <i class="bi bi-person"></i>
+                                    Account Details
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-section="orders" class="nav-link">
+                                    <i class="bi bi-box-seam"></i>
+                                    Order History
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-section="addresses" class="nav-link">
+                                    <i class="bi bi-geo-alt"></i>
+                                    Saved Addresses
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-section="favorites" class="nav-link">
+                                    <i class="bi bi-heart"></i>
+                                    Favorites
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-section="security" class="nav-link">
+                                    <i class="bi bi-shield-lock"></i>
+                                    Security
+                                </a>
+                            </li>
+                        </ul>
+
+                        <button class="logout-btn" id="logoutBtn">
+                            <i class="bi bi-box-arrow-right me-2"></i>Logout
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="col-lg-9">
+                    <div class="profile-content">
+                        <!-- Account Details Section -->
+                        <div class="content-section active" id="account">
+                            <div class="section-header">
+                                <h2>Account Details</h2>
+                            </div>
+
+                            <form id="accountForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="firstName" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="firstName" placeholder="John">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="Doe">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="accountEmail" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="accountEmail" readonly>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="+63 912 345 6789">
+                                </div>
+
+                                <div class="mb-4">
+                                    <label for="birthdate" class="form-label">Date of Birth</label>
+                                    <input type="date" class="form-control" id="birthdate">
+                                </div>
+
+                                <button type="submit" class="btn btn-primary-custom">
+                                    Save Changes
+                                </button>
+                            </form>
+                        </div>
+
+                        <!-- Order History Section -->
+                        <div class="content-section" id="orders">
+                            <div class="section-header">
+                                <h2>Order History</h2>
+                            </div>
+
+                            <div id="ordersList">
+                                <!-- Orders will be loaded here -->
+                            </div>
+
+                            <div id="noOrders" class="text-center py-5 d-none">
+                                <i class="bi bi-box-seam" style="font-size: 4rem; color: var(--medium-gray);"></i>
+                                <h4 class="mt-3">No orders yet</h4>
+                                <p class="text-muted">Start shopping to see your orders here!</p>
+                                <a href="shop.html" class="btn btn-primary-custom mt-3">Browse Products</a>
+                            </div>
+                        </div>
+
+                        <!-- Saved Addresses Section -->
+                        <div class="content-section" id="addresses">
+                            <div class="section-header d-flex justify-content-between align-items-center">
+                                <h2>Saved Addresses</h2>
+                                <button class="btn btn-primary-custom" data-bs-toggle="modal"
+                                    data-bs-target="#addAddressModal">
+                                    <i class="bi bi-plus-lg me-2"></i>Add Address
+                                </button>
+                            </div>
+
+                            <div id="addressesList">
+                                <!-- Addresses will be loaded here -->
+                            </div>
+
+                            <div id="noAddresses" class="text-center py-5 d-none">
+                                <i class="bi bi-geo-alt" style="font-size: 4rem; color: var(--medium-gray);"></i>
+                                <h4 class="mt-3">No saved addresses</h4>
+                                <p class="text-muted">Add an address for faster checkout!</p>
+                            </div>
+                        </div>
+
+                        <!-- Favorites Section -->
+                        <div class="content-section" id="favorites">
+                            <div class="section-header">
+                                <h2>My Favorites</h2>
+                            </div>
+
+                            <div id="favoritesList" class="row">
+                                <!-- Favorites will be loaded here -->
+                            </div>
+
+                            <div id="noFavorites" class="text-center py-5 d-none">
+                                <i class="bi bi-heart" style="font-size: 4rem; color: var(--medium-gray);"></i>
+                                <h4 class="mt-3">No favorites yet</h4>
+                                <p class="text-muted">Save items you love to find them easily later!</p>
+                                <a href="shop.html" class="btn btn-primary-custom mt-3">Browse Products</a>
+                            </div>
+                        </div>
+
+                        <!-- Security Section -->
+                        <div class="content-section" id="security">
+                            <div class="section-header">
+                                <h2>Security Settings</h2>
+                            </div>
+
+                            <form id="passwordForm">
+                                <div class="mb-3">
+                                    <label for="currentPassword" class="form-label">Current Password</label>
+                                    <input type="password" class="form-control" id="currentPassword" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="newPassword" class="form-label">New Password</label>
+                                    <input type="password" class="form-control" id="newPassword" required>
+                                    <small class="text-muted">Password must be at least 6 characters</small>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label for="confirmNewPassword" class="form-label">Confirm New Password</label>
+                                    <input type="password" class="form-control" id="confirmNewPassword" required>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary-custom">
+                                    Update Password
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Add Address Modal -->
+    <div class="modal fade" id="addAddressModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add New Address</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="addAddressForm">
+                        <div class="mb-3">
+                            <label for="addressLabel" class="form-label">Label</label>
+                            <input type="text" class="form-control" id="addressLabel" placeholder="Home, Work, etc."
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phoneNumber" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phoneNumber" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="streetAddress" class="form-label">Street Address</label>
+                            <textarea class="form-control" id="streetAddress" rows="3" required></textarea>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="city" class="form-label">City</label>
+                                <input type="text" class="form-control" id="city" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="postalCode" class="form-label">Postal Code</label>
+                                <input type="text" class="form-control" id="postalCode" required>
+                            </div>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="setAsDefault">
+                            <label class="form-check-label" for="setAsDefault">
+                                Set as default address
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary-custom" id="saveAddressBtn">Save Address</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/profile.js"></script>
+</body>
+
+</html>

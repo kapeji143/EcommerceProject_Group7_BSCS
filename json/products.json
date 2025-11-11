@@ -1,0 +1,1034 @@
+[
+    {
+        "id": "sofa_A1",
+        "name": "Goodall Sofa",
+        "brand": "Arhaus",
+        "category": "Sofas",
+        "price": 2100.00,
+        "currency": "USD",
+        "stock": 5,
+        "sku": "ARH-SOF-GOODALL001",
+        "description": "Craftsman-built frame constructed using solid hardwood for lasting strength and stability. Exposed back features oak veneer. Upholstered in performance fabric. Designed for modern luxury comfort.",
+        "dimensions": {
+            "width": "243 cm",
+            "height": "90 cm",
+            "depth": "105 cm"
+        },
+        "materials": [
+            "hardwood frame",
+            "oak veneer",
+            "performance fabric",
+            "foam & poly-fiber cushions"
+        ],
+        "weight": "78 kg",
+        "assembly_required": false,
+        "color": [
+            "white"
+        ],
+        "finish": "natural oak veneer",
+        "style": "modern luxury",
+        "room": [
+            "living room"
+        ],
+        "tags": [
+            "premium sofa",
+            "designer",
+            "long-lasting"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": false,
+        "collection": "Arhaus Upholstery 2025",
+        "images": [
+            "../images/products/arhaus-goodall-sofa-1.webp",
+            "../images/products/arhaus-goodall-sofa-2.webp",
+            "../images/products/arhaus-goodall-sofa-3.webp"
+        ],
+        "thumbnail": "../images/products/arhaus-goodall-sofa-0.webp",
+        "rating": 4.6,
+        "reviews_count": 58,
+        "availability": "in stock",
+        "featured": true,
+        "shipping_class": "large item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "coffeeTable_A2",
+        "name": "Lonelle Stone Coffee Table",
+        "brand": "Arhaus",
+        "category": "Coffee Tables",
+        "price": 1260.00,
+        "currency": "USD",
+        "stock": 8,
+        "sku": "ARH-CT-LONELLE001",
+        "description": "Handcrafted by artisans from real stone — no two tables are exactly alike. Modern silhouette with column-style legs and sand-blasted finish to highlight organic veining.",
+        "dimensions": {
+            "width": "94 cm",
+            "height": "45 cm",
+            "depth": "94 cm"
+        },
+        "materials": [
+            "natural stone",
+            "column-style legs"
+        ],
+        "weight": "65 kg",
+        "assembly_required": false,
+        "color": [
+            "beige"
+        ],
+        "finish": "matte stone",
+        "style": "contemporary",
+        "room": [
+            "living room"
+        ],
+        "tags": [
+            "artisan",
+            "stone",
+            "statement piece"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": true,
+        "collection": "Natural Materials 2025",
+        "images": [
+            "../images/products/lonelle-stone-coffee-table-1.webp",
+            "../images/products/lonelle-stone-coffee-table-2.jpg",
+            "../images/products/lonelle-stone-coffee-table-3.webp"
+        ],
+        "thumbnail": "../images/products/lonelle-stone-coffee-table-0.webp",
+        "rating": 4.8,
+        "reviews_count": 12,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "large item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "diningTable_A3",
+        "name": "Kensington Dining Table",
+        "brand": "Arhaus",
+        "category": "Dining Tables",
+        "price": 3499.00,
+        "currency": "USD",
+        "stock": 4,
+        "sku": "ARH-DT-KENS001",
+        "description": "Handcrafted with solid oak top and Finnish pine base. Natural wood may display joints or knots adding character without affecting quality.",
+        "dimensions": {
+            "width": "244 cm",
+            "height": "76 cm",
+            "depth": "122 cm"
+        },
+        "materials": [
+            "solid oak",
+            "oak veneer",
+            "Finnish pine base"
+        ],
+        "weight": "120 kg",
+        "assembly_required": true,
+        "color": [
+            "brown"
+        ],
+        "finish": "clear satin",
+        "style": "modern rustic",
+        "room": [
+            "dining room"
+        ],
+        "tags": [
+            "oak table",
+            "durable",
+            "artisan"
+        ],
+        "is_new_arrival": true,
+        "is_on_sale": false,
+        "collection": "Dining Rooms 2025",
+        "images": [
+            "../images/products/kensington-dining-table-1.webp",
+            "../images/products/kensington-dining-table-2.webp",
+            "../images/products/kensington-dining-table-3.webp"
+        ],
+        "thumbnail": "../images/products/kensington-dining-table-0.webp",
+        "rating": 4.5,
+        "reviews_count": 20,
+        "availability": "in stock",
+        "featured": true,
+        "shipping_class": "large item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "accentChair_A4",
+        "name": "Remington Accent Chair",
+        "brand": "Arhaus",
+        "category": "Accent Chairs",
+        "price": 999.00,
+        "currency": "USD",
+        "stock": 10,
+        "sku": "ARH-AC-REM001",
+        "description": "Contemporary silhouette with sleek edges and low profile — designed to match modern minimalist aesthetic.",
+        "dimensions": {
+            "width": "80 cm",
+            "height": "88 cm",
+            "depth": "90 cm"
+        },
+        "materials": [
+            "hardwood frame",
+            "upholstery fabric",
+            "foam cushions"
+        ],
+        "weight": "28 kg",
+        "assembly_required": false,
+        "color": [
+            "grey"
+        ],
+        "finish": "matte black legs",
+        "style": "modern minimalist",
+        "room": [
+            "living room",
+            "study"
+        ],
+        "tags": [
+            "accent chair",
+            "modern profile"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": true,
+        "collection": "Seating 2025",
+        "images": [
+            "../images/products/remington-accent-chair-1.webp",
+            "../images/products/remington-accent-chair-2.webp",
+            "../images/products/remington-accent-chair-3.webp"
+        ],
+        "thumbnail": "../images/products/remington-accent-chair-0.webp",
+        "rating": 4.4,
+        "reviews_count": 34,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "standard furniture",
+        "in_trend_spotlight_for_november_fall": false
+    },
+    {
+        "id": "tableLamp_A5",
+        "name": "Polo White Table Lamp",
+        "brand": "Arhaus",
+        "category": "Table Lamps",
+        "price": 349.00,
+        "currency": "USD",
+        "stock": 25,
+        "sku": "ARH-LT-TABLE001",
+        "description": "Ceramic table lamp in white glaze, with brass detailing and fabric shade. Adds elegant ambient lighting for living or bedroom spaces.",
+        "dimensions": {
+            "width": "30 cm",
+            "height": "65 cm",
+            "depth": "30 cm"
+        },
+        "materials": [
+            "ceramic",
+            "brass",
+            "fabric shade"
+        ],
+        "weight": "4 kg",
+        "assembly_required": false,
+        "color": [
+            "white"
+        ],
+        "finish": "gloss glaze",
+        "style": "transitional lighting",
+        "room": [
+            "living room",
+            "bedroom"
+        ],
+        "tags": [
+            "table lamp",
+            "accent lighting",
+            "designer brand"
+        ],
+        "is_new_arrival": true,
+        "is_on_sale": false,
+        "collection": "Lighting & Décor 2025",
+        "images": [
+            "../images/products/polo-white-table-lamp-1.jpg",
+            "../images/products/polo-white-table-lamp-2.jpg",
+            "../images/products/polo-white-table-lamp-3.jpg"
+        ],
+        "thumbnail": "../images/products/polo-white-table-lamp-0.jpg",
+        "rating": 4.9,
+        "reviews_count": 12,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "small parcel",
+        "in_trend_spotlight_for_november_fall": false
+    },
+    {
+        "id": "sofa_J1",
+        "name": "Hughes Sofa",
+        "brand": "Joybird",
+        "category": "Sofas",
+        "price": 1579.00,
+        "currency": "USD",
+        "stock": 6,
+        "sku": "JB-SOF-HUGHES001",
+        "description": "Retro tufting, supportive cushioning, and a sleek mid-century silhouette join forces for a stylish living room's focal point.",
+        "dimensions": {
+            "width": "243 cm",
+            "height": "85 cm",
+            "depth": "94 cm"
+        },
+        "materials": [
+            "hardwood frame",
+            "foam cushions",
+            "upholstery fabric"
+        ],
+        "weight": "70 kg",
+        "assembly_required": false,
+        "color": [
+            "grey"
+        ],
+        "finish": "matte upholstery",
+        "style": "mid-century modern",
+        "room": [
+            "living room"
+        ],
+        "tags": [
+            "tufted",
+            "supportive",
+            "retro"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": true,
+        "collection": "Hughes Collection 2025",
+        "images": [
+            "../images/products/hughes-sofa-1.webp",
+            "../images/products/hughes-sofa-2.webp",
+            "../images/products/hughes-sofa-3.jpg"
+        ],
+        "thumbnail": "../images/products/hughes-sofa-0.webp",
+        "rating": 4.7,
+        "reviews_count": 807,
+        "availability": "in stock",
+        "featured": true,
+        "shipping_class": "large item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "sofa_J2",
+        "name": "Briar Sofa",
+        "brand": "Joybird",
+        "category": "Sofas",
+        "price": 2598.00,
+        "currency": "USD",
+        "stock": 4,
+        "sku": "JB-SOF-BRIAR002",
+        "description": "Add an elevated tone to your living room with the Briar Sofa's mid-century flair and cozy seating. Tufted seat and bolster pillows define the silhouette.",
+        "dimensions": {
+            "width": "234 cm",
+            "height": "89 cm",
+            "depth": "94 cm"
+        },
+        "materials": [
+            "hardwood frame",
+            "foam cushions",
+            "upholstery fabric"
+        ],
+        "weight": "75 kg",
+        "assembly_required": false,
+        "color": [
+            "beige"
+        ],
+        "finish": "matte upholstery",
+        "style": "mid-century modern",
+        "room": [
+            "living room"
+        ],
+        "tags": [
+            "tufted",
+            "bolster pillows",
+            "cozy"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": false,
+        "collection": "Briar Collection 2025",
+        "images": [
+            "../images/products/briar-sofa-1.webp",
+            "../images/products/briar-sofa-2.webp",
+            "../images/products/briar-sofa-3.jpg"
+        ],
+        "thumbnail": "../images/products/briar-sofa-0.webp",
+        "rating": 4.7,
+        "reviews_count": 252,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "large item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "sofa_J3",
+        "name": "Briar Sleeper Sofa",
+        "brand": "Joybird",
+        "category": "Sofas",
+        "price": 2413.00,
+        "currency": "USD",
+        "stock": 3,
+        "sku": "JB-SOF-BRIARSLP003",
+        "description": "Ideal for guests and lounge time, this mid-century styled sleeper sofa features tufted seating and bolster pillows.",
+        "dimensions": {
+            "width": "200 cm",
+            "height": "89 cm",
+            "depth": "92 cm"
+        },
+        "materials": [
+            "engineered wood frame",
+            "foam & memory-foam mattress",
+            "upholstery fabric"
+        ],
+        "weight": "80 kg",
+        "assembly_required": false,
+        "color": [
+            "grey"
+        ],
+        "finish": "matte upholstery",
+        "style": "mid-century sleeper",
+        "room": [
+            "living room",
+            "guest room"
+        ],
+        "tags": [
+            "sleeper sofa",
+            "multi-functional",
+            "tufted"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": true,
+        "collection": "Briar Collection 2025",
+        "images": [
+            "../images/products/briar-sleeper-sofa-1.webp",
+            "../images/products/briar-sleeper-sofa-2.webp",
+            "../images/products/briar-sleeper-sofa-3.webp"
+        ],
+        "thumbnail": "../images/products/briar-sleeper-sofa-0.webp",
+        "rating": 4.8,
+        "reviews_count": 256,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "large item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "table_J4",
+        "name": "Kinsey Outdoor Dining Table",
+        "brand": "Joybird",
+        "category": "Dining Tables",
+        "price": 1030.00,
+        "currency": "USD",
+        "stock": 5,
+        "sku": "JB-DT-KINSEY001",
+        "description": "Effortless style combining neutral colour and teak wood for an outdoor dining setting.",
+        "dimensions": {
+            "width": "200 cm",
+            "height": "76 cm",
+            "depth": "100 cm"
+        },
+        "materials": [
+            "teak tabletop",
+            "aluminum base"
+        ],
+        "weight": "60 kg",
+        "assembly_required": true,
+        "color": [
+            "brown"
+        ],
+        "finish": "teak + matte aluminum",
+        "style": "modern outdoor",
+        "room": [
+            "outdoor dining area"
+        ],
+        "tags": [
+            "outdoor dining",
+            "teak",
+            "durable"
+        ],
+        "is_new_arrival": true,
+        "is_on_sale": false,
+        "collection": "Outdoor Dining 2025",
+        "images": [
+            "../images/products/kinsey-outdoor-dining-table-1.jpg",
+            "../images/products/kinsey-outdoor-dining-table-2.jpg",
+            "../images/products/kinsey-outdoor-dining-table-3.jpg"
+        ],
+        "thumbnail": "../images/products/kinsey-outdoor-dining-table-0.png",
+        "rating": 4.4,
+        "reviews_count": 26,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "large item",
+        "in_trend_spotlight_for_november_fall": false
+    },
+    {
+        "id": "chair_J5",
+        "name": "Hughes Armless Loveseat",
+        "brand": "Joybird",
+        "category": "Accent Chairs",
+        "price": 1499.00,
+        "currency": "USD",
+        "stock": 8,
+        "sku": "JB-AC-HUGHESLOVE001",
+        "description": "Stylish armless loveseat with mid-century modern profile — great for compact spaces or offices.",
+        "dimensions": {
+            "width": "165 cm",
+            "height": "85 cm",
+            "depth": "94 cm"
+        },
+        "materials": [
+            "hardwood frame",
+            "foam cushions",
+            "upholstery fabric"
+        ],
+        "weight": "45 kg",
+        "assembly_required": false,
+        "color": [
+            "blue"
+        ],
+        "finish": "matte upholstery",
+        "style": "mid-century modern loveseat",
+        "room": [
+            "living room",
+            "office"
+        ],
+        "tags": [
+            "armless",
+            "stylish",
+            "compact"
+        ],
+        "is_new_arrival": true,
+        "is_on_sale": false,
+        "collection": "Hughes Collection 2025",
+        "images": [
+            "../images/products/hughes-armless-loveseat-1.webp",
+            "../images/products/hughes-armless-loveseat-2.webp",
+            "../images/products/hughes-armless-loveseat-3.webp"
+        ],
+        "thumbnail": "../images/products/hughes-armless-loveseat-0.png",
+        "rating": 4.5,
+        "reviews_count": 10,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "large item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "lamp_JYC1",
+        "name": "Abacus Table Lamp",
+        "brand": "Jamie Young Co.",
+        "category": "Table Lamps",
+        "price": 473.00,
+        "currency": "USD",
+        "stock": 10,
+        "sku": "9ABACUSTLBW",
+        "description": "Masterfully carved of sustainable mango wood, this table lamp was inspired by the beads on ancient counting devices. The bleached finish highlights the natural wood grain beneath and adds a timeless, handcrafted appeal.",
+        "dimensions": {
+            "width": "40 cm",
+            "height": "75 cm",
+            "depth": "40 cm"
+        },
+        "materials": [
+            "mango wood",
+            "metal",
+            "linen shade"
+        ],
+        "weight": "4.5 kg",
+        "assembly_required": false,
+        "color": [
+            "brown",
+            "black"
+        ],
+        "finish": "bleached wood",
+        "style": "modern luxury",
+        "room": [
+            "living room",
+            "bedroom",
+            "study"
+        ],
+        "tags": [
+            "mango wood",
+            "designer lamp",
+            "table lighting"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": false,
+        "collection": "Jamie Young Classics 2025",
+        "images": [
+            "../images/products/abacus-table-lamp-1.jpg",
+            "../images/products/abacus-table-lamp-2.webp",
+            "../images/products/abacus-table-lamp-3.webp"
+        ],
+        "thumbnail": "../images/products/abacus-table-lamp-0.webp",
+        "rating": 4.7,
+        "reviews_count": 42,
+        "availability": "in stock",
+        "featured": true,
+        "shipping_class": "medium item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "lamp_JYC2",
+        "name": "Watercolor Table Lamp",
+        "brand": "Jamie Young Co.",
+        "category": "Table Lamps",
+        "price": 677.60,
+        "currency": "USD",
+        "stock": 6,
+        "sku": "9WATERTLPLUM",
+        "description": "A mouth-blown glass lamp inspired by the 1970s watercolor palette, blending soft plum tones with warm browns. Perfect for spaces with brass or silver decor accents.",
+        "dimensions": {
+            "width": "44 cm",
+            "height": "79 cm",
+            "depth": "44 cm"
+        },
+        "materials": [
+            "glass",
+            "linen shade"
+        ],
+        "weight": "5 kg",
+        "assembly_required": false,
+        "color": [
+            "brown",
+            "purple"
+        ],
+        "finish": "smooth glass",
+        "style": "art-inspired modern",
+        "room": [
+            "living room",
+            "bedroom"
+        ],
+        "tags": [
+            "glass lamp",
+            "vintage inspired",
+            "accent lighting"
+        ],
+        "is_new_arrival": true,
+        "is_on_sale": false,
+        "collection": "Watercolor Series 2025",
+        "images": [
+            "../images/products/watercolor-table-lamp-1.jpg",
+            "../images/products/watercolor-table-lamp-2.webp",
+            "../images/products/watercolor-table-lamp-3.webp"
+        ],
+        "thumbnail": "../images/products/watercolor-table-lamp-0.webp",
+        "rating": 4.8,
+        "reviews_count": 33,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "medium item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "lamp_JYC3",
+        "name": "Reef Table Lamp",
+        "brand": "Jamie Young Co.",
+        "category": "Table Lamps",
+        "price": 242.00,
+        "currency": "USD",
+        "stock": 12,
+        "sku": "LS9REEFTLGR",
+        "description": "A softly rounded ceramic lamp finished in a reactive grey glaze, paired with an off-white linen shade and silver hardware for casual yet refined style.",
+        "dimensions": {
+            "width": "30 cm",
+            "height": "50 cm",
+            "depth": "30 cm"
+        },
+        "materials": [
+            "ceramic",
+            "linen shade"
+        ],
+        "weight": "3.5 kg",
+        "assembly_required": false,
+        "color": [
+            "grey",
+            "white"
+        ],
+        "finish": "matte ceramic glaze",
+        "style": "coastal contemporary",
+        "room": [
+            "living room",
+            "bedroom",
+            "entryway"
+        ],
+        "tags": [
+            "ceramic lamp",
+            "reactive glaze",
+            "statement piece"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": true,
+        "collection": "Reef Ceramic Collection 2025",
+        "images": [
+            "../images/products/reef-table-lamp-1.jpg",
+            "../images/products/reef-table-lamp-2.webp",
+            "../images/products/reef-table-lamp-3.webp"
+        ],
+        "thumbnail": "../images/products/reef-table-lamp-0.webp",
+        "rating": 4.5,
+        "reviews_count": 25,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "small item",
+        "in_trend_spotlight_for_november_fall": false
+    },
+    {
+        "id": "lamp_JYC4",
+        "name": "Spectacle Table Lamp",
+        "brand": "Jamie Young Co.",
+        "category": "Table Lamps",
+        "price": 787.60,
+        "currency": "USD",
+        "stock": 4,
+        "sku": "1SPEC-TLGO",
+        "description": "Featuring a horn-patterned lacquer base with gold leaf rings and a white linen shade, this lamp makes an elegant centerpiece in any sophisticated space.",
+        "dimensions": {
+            "width": "46 cm",
+            "height": "78 cm",
+            "depth": "46 cm"
+        },
+        "materials": [
+            "lacquer",
+            "gold leaf",
+            "linen shade"
+        ],
+        "weight": "5.8 kg",
+        "assembly_required": false,
+        "color": [
+            "grey",
+            "gold",
+            "white"
+        ],
+        "finish": "lacquer with gold leaf",
+        "style": "luxury designer",
+        "room": [
+            "living room",
+            "study",
+            "library"
+        ],
+        "tags": [
+            "gold leaf",
+            "designer statement",
+            "lux lighting"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": false,
+        "collection": "Gold Leaf Series 2025",
+        "images": [
+            "../images/products/spectacle-table-lamp-1.jpg",
+            "../images/products/spectacle-table-lamp-2.webp",
+            "../images/products/spectacle-table-lamp-3.webp"
+        ],
+        "thumbnail": "../images/products/spectacle-table-lamp-0.webp",
+        "rating": 4.9,
+        "reviews_count": 12,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "medium item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "lamp_JYC5",
+        "name": "Trace Table Lamp – Large",
+        "brand": "Jamie Young Co.",
+        "category": "Table Lamps",
+        "price": 424.60,
+        "currency": "USD",
+        "stock": 8,
+        "sku": "9TRACWHD131L",
+        "description": "Large ceramic lamp with soft traced texture and a natural linen shade. The white body adds a coastal and airy elegance suitable for any contemporary home.",
+        "dimensions": {
+            "width": "45 cm",
+            "height": "80 cm",
+            "depth": "45 cm"
+        },
+        "materials": [
+            "ceramic",
+            "linen shade"
+        ],
+        "weight": "4.2 kg",
+        "assembly_required": false,
+        "color": [
+            "white"
+        ],
+        "finish": "matte ceramic",
+        "style": "coastal elegance",
+        "room": [
+            "living room",
+            "bedroom",
+            "entryway"
+        ],
+        "tags": [
+            "textured ceramic",
+            "coastal lamp",
+            "designer lighting"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": false,
+        "collection": "Trace Ceramic Collection 2025",
+        "images": [
+            "../images/products/trace-table-lamp-1.webp",
+            "../images/products/trace-table-lamp-2.webp",
+            "../images/products/trace-table-lamp-3.webp"
+        ],
+        "thumbnail": "../images/products/trace-table-lamp-0.webp",
+        "rating": 4.6,
+        "reviews_count": 18,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "medium item",
+        "in_trend_spotlight_for_november_fall": true
+    },
+    {
+        "id": "caitlinChair_D1",
+        "name": "Caitlin Occasional Chair",
+        "brand": "Dovetail",
+        "category": "Accent Chairs",
+        "price": 1325.00,
+        "currency": "USD",
+        "stock": 8,
+        "sku": "DOV39011-GOLD",
+        "description": "A soft occasional chair in multi-tone chenille fabric. Perfect for cozy reading corners or modern living spaces.",
+        "dimensions": {
+            "width": "39.5 in",
+            "height": "29.5 in",
+            "depth": "37.5 in"
+        },
+        "materials": [
+            "chenille fabric"
+        ],
+        "weight": "51.5 lbs",
+        "volume": "25 cu ft",
+        "assembly_required": false,
+        "color": [
+            "beige"
+        ],
+        "finish": "matte",
+        "style": "modern",
+        "room": [
+            "living room",
+            "study"
+        ],
+        "tags": [
+            "accent chair",
+            "soft fabric",
+            "minimalist"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": false,
+        "collection": "Dovetail Living",
+        "images": [
+            "../images/products/caitlin-occasional-chair-1.webp",
+            "../images/products/caitlin-occasional-chair-2.webp",
+            "../images/products/caitlin-occasional-chair-3.jpg"
+        ],
+        "thumbnail": "../images/products/caitlin-occasional-chair-0.webp",
+        "rating": 4.7,
+        "reviews_count": 21,
+        "availability": "in stock",
+        "featured": true,
+        "shipping_class": "standard furniture",
+        "in_trends_spotlight": true
+    },
+    {
+        "id": "roninCoffeeTable_D2",
+        "name": "Ronin Coffee Table",
+        "brand": "Dovetail",
+        "category": "Coffee Tables",
+        "price": 1890.00,
+        "currency": "USD",
+        "stock": 6,
+        "sku": "DOV76026-BRWN",
+        "description": "Solid acacia wood coffee table featuring a low modern profile and rich brown finish.",
+        "dimensions": {
+            "width": "57.5 in",
+            "height": "15.5 in",
+            "depth": "28 in"
+        },
+        "materials": [
+            "acacia wood"
+        ],
+        "weight": "199.5 lbs",
+        "volume": "14.5 cu ft",
+        "assembly_required": false,
+        "color": [
+            "brown"
+        ],
+        "finish": "matte",
+        "style": "contemporary",
+        "room": [
+            "living room"
+        ],
+        "tags": [
+            "coffee table",
+            "solid wood"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": false,
+        "collection": "Dovetail Home",
+        "images": [
+            "../images/products/ronin-coffee-table-1.webp",
+            "../images/products/ronin-coffee-table-2.jpg",
+            "../images/products/ronin-coffee-table-3.jpg"
+        ],
+        "thumbnail": "../images/products/ronin-coffee-table-0.webp",
+        "rating": 4.5,
+        "reviews_count": 18,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "large item",
+        "in_trends_spotlight": true
+    },
+    {
+        "id": "gaetanBookcase_D3",
+        "name": "Gaetan Bookcase",
+        "brand": "Dovetail",
+        "category": "Bookcases",
+        "price": 2450.00,
+        "currency": "USD",
+        "stock": 4,
+        "sku": "DOV6472-BRWN",
+        "description": "Tall bookcase crafted from Mindi wood, providing ample open shelving for storage or display.",
+        "dimensions": {
+            "width": "67 in",
+            "height": "79 in",
+            "depth": "16 in"
+        },
+        "materials": [
+            "mindi wood"
+        ],
+        "weight": "187.5 lbs",
+        "volume": "48.5 cu ft",
+        "assembly_required": false,
+        "color": [
+            "brown"
+        ],
+        "finish": "matte",
+        "style": "rustic",
+        "room": [
+            "living room",
+            "home office"
+        ],
+        "tags": [
+            "bookcase",
+            "mindi wood",
+            "shelving"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": false,
+        "collection": "Dovetail Natural",
+        "images": [
+            "../images/products/gaetan-bookcase-1.webp",
+            "../images/products/gaetan-bookcase-2.jpg",
+            "../images/products/gaetan-bookcase-3.jpg"
+        ],
+        "thumbnail": "../images/products/gaetan-bookcase-0.jpg",
+        "rating": 4.6,
+        "reviews_count": 34,
+        "availability": "in stock",
+        "featured": false,
+        "shipping_class": "large item",
+        "in_trends_spotlight": true
+    },
+    {
+        "id": "uriasSideboard_D4",
+        "name": "Urias Sideboard",
+        "brand": "Dovetail",
+        "category": "Sideboards",
+        "price": 2890.00,
+        "currency": "USD",
+        "stock": 5,
+        "sku": "DOV6518-DKBR",
+        "description": "Mindi wood sideboard with four cabinet doors, offering concealed storage in a rich dark brown tone.",
+        "dimensions": {
+            "width": "79 in",
+            "height": "29.5 in",
+            "depth": "18 in"
+        },
+        "materials": [
+            "mindi wood"
+        ],
+        "weight": "148.5 lbs",
+        "volume": "24 cu ft",
+        "assembly_required": false,
+        "color": [
+            "dark brown"
+        ],
+        "finish": "matte",
+        "style": "transitional",
+        "room": [
+            "dining room",
+            "living room"
+        ],
+        "tags": [
+            "sideboard",
+            "storage",
+            "mindi wood"
+        ],
+        "is_new_arrival": false,
+        "is_on_sale": false,
+        "collection": "Dovetail Studio",
+        "images": [
+            "../images/products/urias-sideboard-1.webp",
+            "../images/products/urias-sideboard-2.webp",
+            "../images/products/urias-sideboard-3.jpg"
+        ],
+        "thumbnail": "../images/products/urias-sideboard-0.jpg",
+        "rating": 4.8,
+        "reviews_count": 27,
+        "availability": "in stock",
+        "featured": true,
+        "shipping_class": "large item",
+        "in_trends_spotlight": true
+    },
+    {
+        "id": "tanyaBed_D5",
+        "name": "Tanya Bed",
+        "brand": "Dovetail",
+        "category": "Beds",
+        "price": 3680.00,
+        "currency": "USD",
+        "stock": 3,
+        "sku": "DOV16509Q-BURL",
+        "description": "Elegant bed made from Mappa burl and acacia wood with a natural finish and black frame.",
+        "dimensions": {
+            "width": "64 in",
+            "height": "52 in",
+            "depth": "87 in"
+        },
+        "materials": [
+            "mappa burl",
+            "acacia wood"
+        ],
+        "weight": "274.5 lbs",
+        "volume": "69 cu ft",
+        "assembly_required": true,
+        "color": [
+            "natural",
+            "black"
+        ],
+        "finish": "matte",
+        "style": "contemporary",
+        "room": [
+            "bedroom"
+        ],
+        "tags": [
+            "bed",
+            "mappa burl",
+            "wood frame"
+        ],
+        "is_new_arrival": true,
+        "is_on_sale": false,
+        "collection": "Dovetail Studio",
+        "images": [
+            "../images/products/tanya-bed-1.webp",
+            "../images/products/tanya-bed-2.webp",
+            "../images/products/tanya-bed-3.webp"
+        ],
+        "thumbnail": "../images/products/tanya-bed-0.webp",
+        "rating": 4.9,
+        "reviews_count": 41,
+        "availability": "in stock",
+        "featured": true,
+        "shipping_class": "large item",
+        "in_trends_spotlight": true
+    }
+]
